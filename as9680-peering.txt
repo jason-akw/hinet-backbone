@@ -1,11 +1,22 @@
-TSA: Taipei
-TPE: Taoyuan
-NWT: New Taipei City
-KHH: Kaohsiung
-PAO: Palo Alto
-LAX: Los Angeles
-LON: London
+// TSA: Taipei, TPE: Taoyuan, NWT: New Taipei City, KHH: Kaohsiung, PAO: Palo Alto, LAX: Los Angeles, LON: London
 
+#### Peering/Transit ####
+# Any2IX California
+206.72.210.25 LAX 100G
+
+# Equinix Los Angeles
+206.223.123.39 LAX 100G
+
+# CeraNetworks
+202.39.82.229 LAX 200G
+
+# Cloudflare
+141.101.72.250 LAX
+
+# Netflix
+66.197.163.186 PAO
+
+#### Backbone ####
 # NA
 202.39.91.1 KHH-LAX
 202.39.91.5 TPE-LAX
@@ -63,8 +74,7 @@ LON: London
 211.72.108.249 KHH-LAX
 211.72.108.253 KHH-PAO
 
-
 # EU
-202.39.91.241 NWT-LON
-202.39.91.245 NWT-LON
-202.39.91.249 NWT-LON
+//202.39.91.241 NWT-LON
+202.39.91.245 SGP-LON
+202.39.91.249 SGP-LON
